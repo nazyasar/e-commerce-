@@ -1,13 +1,15 @@
 # E-commerce Website Back End
 
-## E-commerce Website Back End
-Description
+## Description
 This is a back end for an e-commerce website that uses the latest technologies. It is built with Express.js and uses Sequelize as an ORM to interact with a MySQL database. It provides API endpoints for categories, products, and tags that can be accessed through GET, POST, PUT, and DELETE requests.
+
+## Screen Recording
+[insomnia-testing.webm](https://user-images.githubusercontent.com/55256787/230705612-4a0ba698-8adb-4aaa-8258-71117e2abc55.webm)
 
 ## Installation
 Clone the repository.
 Install dependencies by running  `npm install`.
-Create a .env file in the root directory of the project and set the following environment variables:
+Create a `.env` file in the root directory of the project and set the following environment variables:
 
 ```
 DB_NAME=<database_name>
@@ -83,8 +85,8 @@ To update a tag, send a PUT request to /api/tags/:id with the following JSON dat
 ```
 
 ## DELETE Routes
-To delete a category, send a DELETE request to /api/categories/:id.
-To delete a product, send a DELETE request to /api/products/:id.
-To delete a tag, send a DELETE request to /api/tags/:id.
+- To delete a category, send a DELETE request to /api/categories/:id.
+- To delete a product, send a DELETE request to /api/products/:id.
+- To delete a tag, send a DELETE request to /api/tags/:id.
 
-### Credits: Naz Yasar
+### Credit: Naz Yasar
