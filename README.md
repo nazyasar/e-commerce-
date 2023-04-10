@@ -23,23 +23,23 @@ Run `npm start` to start the server and sync the Sequelize models with the MySQL
 API routes can be accessed using Insomnia Core or any other API client.
 
 ## GET Routes
-To get all categories, send a GET request to /api/categories.
-To get a specific category by ID, send a GET request to /api/categories/:id.
-To get all products, send a GET request to /api/products.
-To get a specific product by ID, send a GET request to /api/products/:id.
-To get all tags, send a GET request to /api/tags.
-To get a specific tag by ID, send a GET request to /api/tags/:id.
+- To get all categories, send a GET request to` /api/categories`.
+- To get a specific category by ID, send a GET request to `/api/categories/:id`.
+- To get all products, send a GET request to `/api/products`.
+- To get a specific product by ID, send a GET request to `/api/products/:id`.
+- To get all tags, send a GET request to `/api/tags`.
+- To get a specific tag by ID, send a GET request to `/api/tags/:id`.
 
 ## POST Routes
 
-To add a new category, send a POST request to /api/categories with the following JSON data:
+To add a new category, send a POST request to `/api/categories` with the following JSON data:
 
 ```
 {
     "category_name": "New Category"
 }
 ```
-To add a new product, send a POST request to /api/products with the following JSON data:
+To add a new product, send a POST request to `/api/products` with the following JSON data:
 
 ```
 {
@@ -50,7 +50,7 @@ To add a new product, send a POST request to /api/products with the following JS
     "tagIds": [1, 2, 3]
 }
 ```
-To add a new tag, send a POST request to /api/tags with the following JSON data:
+To add a new tag, send a POST request to `/api/tags` with the following JSON data:
 ```
 {
     "tag_name": "New Tag"
@@ -58,7 +58,7 @@ To add a new tag, send a POST request to /api/tags with the following JSON data:
 ```
 
 ## PUT Routes
-To update a category, send a PUT request to /api/categories/:id with the following JSON data:
+To update a category, send a PUT request to `/api/categories/:id` with the following JSON data:
 
 ```
 {
@@ -66,7 +66,7 @@ To update a category, send a PUT request to /api/categories/:id with the followi
 }
 ```
 
-To update a product, send a PUT request to /api/products/:id with the following JSON data:
+To update a product, send a PUT request to `/api/products/:id` with the following JSON data:
 ```
 {
     "product_name": "Updated Product",
@@ -76,7 +76,7 @@ To update a product, send a PUT request to /api/products/:id with the following 
     "tagIds": [4, 5]
 }
 ```
-To update a tag, send a PUT request to /api/tags/:id with the following JSON data:
+To update a tag, send a PUT request to `/api/tags/:id` with the following JSON data:
 
 ```
 {
@@ -85,8 +85,8 @@ To update a tag, send a PUT request to /api/tags/:id with the following JSON dat
 ```
 
 ## DELETE Routes
-- To delete a category, send a DELETE request to /api/categories/:id.
-- To delete a product, send a DELETE request to /api/products/:id.
-- To delete a tag, send a DELETE request to /api/tags/:id.
+- To delete a category, send a DELETE request to `/api/categories/:id`.
+- To delete a product, send a DELETE request to `/api/products/:id`.
+- To delete a tag, send a DELETE request to `/api/tags/:id`.
 
 ### Credit: Naz Yasar
